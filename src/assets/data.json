@@ -1,0 +1,80 @@
+{
+  "Tasks": [
+    {
+      "name": "",
+      "chat": "New website for Symu.co",
+      "date": "5 days",
+      "img": "a.svg"
+    },
+    {
+      "name": "",
+      "chat": "Free business PSD Template",
+      "date": "3 days",
+      "img": "f.svg"
+    },
+    {
+      "name": "",
+      "chat": "New logo for JCD.pl",
+      "date": "5 days",
+      "img": "a.svg"
+    },
+    {
+      "name": "",
+      "chat": "Free lcons Set vol. 3",
+      "date": "2 days",
+      "img": "f.svg"
+    }
+  ],
+  "Messages": [
+    {
+      "name": "Nina Jones",
+      "chat": "Hey You it's me again :-)",
+      "date": "",
+      "img": "man.svg"
+    },
+    {
+      "name": "Nina Jones",
+      "chat": "Hey You it's me again :-)",
+      "date": "",
+      "img": "man.svg"
+    },
+    {
+      "name": "James James",
+      "chat": "Good morning how are you",
+      "date": "",
+      "img": "student.svg"
+    },
+    {
+      "name": "Nina Jones",
+      "chat": "Good",
+      "date": "",
+      "img": "man.svg"
+    }
+  ],
+  "Activity": [
+    {
+      "name": "Nina Jones",
+      "chat": "Hey You it's me again :-)",
+      "date": "just now",
+      "img": "man.svg"
+    },
+    {
+      "name": "Nina Jones",
+      "chat": "Hey You it's me again :-)",
+      "date": "40 min ago",
+      "img": "man.svg"
+    },
+    {
+      "name": "James James",
+      "chat": "Good morning how are you",
+      "date": "1 hour ago",
+      "img": "student.svg"
+    },
+    {
+      "name": "Nati Bla",
+      "chat": "Good",
+      "date": "3 hour ago",
+      "img": "doctor.svg"
+    }
+  ]
+}

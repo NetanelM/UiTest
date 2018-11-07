@@ -1,0 +1,20 @@
+.list-names {
+  border: solid 1px #ddd9d9;
+  background: #fff;
+}
+
+.header-list {
+  border-bottom: solid 1px #ddd9d9;
+}
+
+.row-scope {
+  display: flex;
+  border-bottom: solid 1px #ddd9d9;
+  padding: 10px;
+}
+
+.icon-avatar {
+  margin: 2px 13px 0 6px;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,13 @@
+<div class="sidenav" [ngClass]="{'closePanel':metaDataService.togglePanel === false}">
+  <div class="logo">
+    <img class="icon-logo" src="{{metaDataService.imgPath}}merkury.svg">
+    <div class="text-logo">Merkury</div>
+  </div>
+  <div class="item-scope " routerLink="/{{item.page | toLowerCase}}"
+       (click)="onSelected(item)" [ngClass]="{'selected':item.select === true}"
+       *ngFor="let item of metaDataService.pagesPath">
+
+    <img class="icon-item " src="{{metaDataService.imgPath}}{{item.page}}.svg">
+    <div class="text-item">{{item.page}}</div>
+  </div>
+</div>

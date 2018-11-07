@@ -1,0 +1,76 @@
+
+.logo {
+  display: flex;
+  height: 40px;
+  margin: 0 0 0 15px;
+}
+
+.icon-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.text-logo {
+  margin: 6px 0 0 10px;
+}
+
+.closePanel {
+  display: none;
+}
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0e1a35;
+  color: #c7c7c7;
+  overflow-x: hidden;
+  padding-top: 20px;
+  animation-name: keyframesSidenav;
+  animation-duration: 1s;
+}
+
+@keyframes keyframesSidenav {
+
+  from {
+    width: 0%;
+  }
+  to {
+    width: 14%;
+  }
+}
+
+.item-scope {
+  display: flex;
+  height: 70px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #122143;
+  border-left: solid 5px #5583fe;
+}
+
+.icon-item {
+  width: 15px;
+  height: 15px;
+  margin: 25px 15px 0 25px;
+}
+
+.text-item {
+  margin: 25px 0 0 0;
+}
+
+
+
+
+
+

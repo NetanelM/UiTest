@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  background-color: #f6f7fa;
+  min-height: 40vh;
+  position: fixed;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+}
+
+

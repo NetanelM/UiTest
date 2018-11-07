@@ -1,0 +1,23 @@
+<div class="topnav" [ngClass]="{'widenHeader':metaDataService.togglePanel === false}">
+
+  <div class="actives">
+    <div class="" (click)="onTogglePanel()">
+      <img class="arrow" [ngClass]="{'rotate':metaDataService.togglePanel === false}"
+           src="{{metaDataService.imgPath}}arrow.svg">
+      <img class="icon-list" src="{{metaDataService.imgPath}}list.svg">
+    </div>
+
+    <input class="search" type="text">
+    <div class="add-project">
+      <img class="icon-plus" src="{{metaDataService.imgPath}}plus.svg">
+      <div>Add project</div>
+    </div>
+
+    <img class="icon" src="{{metaDataService.imgPath}}letter.svg">
+    <img class="icon" src="{{metaDataService.imgPath}}bell.svg">
+  </div>
+
+
+</div>
+
+

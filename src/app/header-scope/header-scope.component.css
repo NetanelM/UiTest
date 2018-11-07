@@ -1,0 +1,100 @@
+.topnav {
+  width: 86%;
+  position: fixed;
+  height: 60px;
+  background-color: #ffffff;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  animation-name: openPanel;
+  animation-duration: 1s;
+}
+
+@keyframes openPanel {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 86%;
+  }
+}
+
+.widenHeader {
+  width: 100%;
+  animation-name: widen;
+  animation-duration: 1s;
+}
+
+@keyframes widen {
+  from {
+    width: 86%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.icon-list {
+  height: 30px;
+  width: 30px;
+  margin: 13px 0px 2px 4px;
+}
+
+.arrow {
+  height: 10px;
+  width: 10px;
+  margin: 22px 0px 12px 4px;
+  transform: rotate(180deg);
+}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+.search {
+  background: url("src/assets/img/search.svg") no-repeat scroll 7px 3px;
+  padding-left: 30px;
+  width: 770px;
+  padding: 0 0 0 30px;
+  height: 25px;
+  border: solid 1px #ffffff;
+  box-shadow: 0px 2px 5px 0 #ffffff;
+  font-family: monospace;
+  position: relative;
+  margin: 15px 0 0 0;
+
+}
+
+.add-project {
+  background: #5584ff;
+  display: flex;
+  color: white;
+  font-size: 13px;
+  width: 125px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  height: 33px;
+  line-height: 2.5;
+  cursor: pointer;
+  margin: 13px 0 0 0;
+}
+
+.icon-plus {
+  height: 10px;
+  margin: 10px 0 0 0;
+  width: 10px;
+}
+
+.actives {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 13px 0px 0 80px;
+}

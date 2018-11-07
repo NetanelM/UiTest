@@ -1,0 +1,14 @@
+<div class="list-names">
+  <div class="row-scope">
+    {{listName}}
+  </div>
+  <div class="row-scope" *ngFor="let item of metaDataService.data[listName]">
+
+    <img class="icon-avatar" src="{{metaDataService.imgPath+item.img}}">
+
+    <div>
+      <div>{{item.name}}</div>
+      <div>{{item.chat}}</div>
+    </div>
+  </div>
+</div>

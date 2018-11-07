@@ -1,0 +1,6 @@
+<div class="container" *ngIf="(metaDataService.data| json) != '{}'">
+  <div *ngFor="let listName of listNames">
+    <app-generic-list listName="{{listName}}"></app-generic-list>
+  </div>
+</div>
+
