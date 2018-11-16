@@ -1,5 +1,4 @@
 <div class="topnav" [ngClass]="{'widenHeader':metaDataService.togglePanel === false}">
-
   <div class="actives">
     <div class="" (click)="onTogglePanel()">
       <img class="arrow" [ngClass]="{'rotate':metaDataService.togglePanel === false}"
@@ -16,8 +15,8 @@
     <img class="icon" src="{{metaDataService.imgPath}}letter.svg">
     <img class="icon" src="{{metaDataService.imgPath}}bell.svg">
   </div>
-
-
 </div>
 
-
+<div class="main">
+  <router-outlet></router-outlet>
+</div>

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LeftPanelComponent } from './left-panel/left-panel.component';
 import { MetaDataService } from "./metaData/meta-data.service";
 import { ToLowerCasePipe } from './pipe/to-lower-case.pipe';
+import {FirstCharacterPipe} from "./pipe/first-character.pipe";
 import { WorkflowComponent } from './left-panel/workflow/workflow.component';
 import { StatisticsComponent } from './left-panel/statistics/statistics.component';
 import { CalendarComponent } from './left-panel/calendar/calendar.component';
@@ -14,6 +15,7 @@ import { SettingsComponent } from './left-panel/settings/settings.component';
 import { GenericListComponent } from './generic-list/generic-list.component';
 import { HeaderScopeComponent } from './header-scope/header-scope.component';
 import { HomeComponent } from "./left-panel/home/home.component";
+import { ChartsComponent } from './charts/charts.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { HomeComponent } from "./left-panel/home/home.component";
     UsersComponent,
     SettingsComponent,
     GenericListComponent,
-    HeaderScopeComponent
+    HeaderScopeComponent,
+    ChartsComponent,
+    FirstCharacterPipe
   ],
   imports: [
     BrowserModule,

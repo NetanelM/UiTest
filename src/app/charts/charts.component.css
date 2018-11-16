@@ -1,0 +1,14 @@
+.chart{
+  background-color: white;
+  font-size: 22px;
+  color: #8e9bb6;
+  border: solid 1px #ecedf3;
+  padding: 0 20px 0 20px;
+  text-align: initial;
+}
+.chart-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0 0 0;
+  line-height: 2;
+}

@@ -1,12 +1,9 @@
 .wrapper{
-  display: flex;
-  flex-flow: row wrap;
+
 }
 
-.main {
-  height: 100%;
-  width: 80%;
-  margin: 37px;
-  position: fixed;
-  left: 178px;
-}
+/*.main {*/
+  /*height: 100%;*/
+  /*width: 80%;*/
+  /*margin: 100px auto;*/
+/*}*/

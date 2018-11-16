@@ -1,6 +1,14 @@
-<div class="container" *ngIf="(metaDataService.data| json) != '{}'">
-  <div *ngFor="let listName of listNames">
-    <app-generic-list listName="{{listName}}"></app-generic-list>
+<div class="user-name"> Hello  John!</div>
+
+<div  class="container-charts" >
+  <div *ngFor="let chart of listCharts">
+    <app-charts headerName="{{chart.name}}" chartImg='{{metaDataService.imgPath+chart.img}}'></app-charts>
   </div>
 </div>
 
+
+<div class="container" *ngIf="(metaDataService.data| json) != '{}'">
+  <div *ngFor="let name of listNames">
+    <app-generic-list name="{{name}}"></app-generic-list>
+  </div>
+</div>

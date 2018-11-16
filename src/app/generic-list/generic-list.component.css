@@ -1,6 +1,23 @@
 .list-names {
   border: solid 1px #ddd9d9;
   background: #fff;
+  width: 270px;
+  text-align: initial;
+}
+
+.header{
+  justify-content: space-between;
+}
+
+
+.count {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #5384ff;
+  color: white;
+  text-align: center;
+  line-height: 2;
 }
 
 .header-list {
@@ -11,10 +28,47 @@
   display: flex;
   border-bottom: solid 1px #ddd9d9;
   padding: 10px;
+
+}
+
+
+.add-move {
+  justify-content: space-between;
 }
 
 .icon-avatar {
   margin: 2px 13px 0 6px;
   width: 30px;
   height: 30px;
+}
+
+.icon-clock {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+}
+
+.icon-move {
+  width: 15px;
+  height: 15px;
+  padding: 3px;
+}
+
+.chat-tasks {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.chat {
+  font-size: 9px;
+}
+
+.chat-name {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.date-text {
+  color: #bcc2d0;
+  font-size: 9px;
 }

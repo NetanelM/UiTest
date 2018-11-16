@@ -1,5 +1,5 @@
 .topnav {
-  width: 86%;
+  width: 84%;
   position: fixed;
   height: 60px;
   background-color: #ffffff;
@@ -10,6 +10,16 @@
   justify-content: flex-end;
   animation-name: openPanel;
   animation-duration: 1s;
+}
+
+.main {
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  margin-left: -37.5%;
+  margin-top: 6%;
 }
 
 @keyframes openPanel {

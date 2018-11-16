@@ -1,8 +1,20 @@
+.user-name {
+  font-size: 40px;
+  margin: 0 0 0 10%;
+  text-align: initial;
+}
+
+.container-charts {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
 .container {
   display: flex;
-  position: fixed;
   justify-content: space-evenly;
   height: 100%;
-  width: 80%;
-  top: 55%;
+  width: 88%;
+  margin: 30px auto;
 }
+

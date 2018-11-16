@@ -9,7 +9,7 @@ import {MetaDataService} from "../metaData/meta-data.service";
 
 
 export class GenericListComponent implements OnInit {
-  @Input() listName:string;
+  @Input() name:string;
 
   constructor(private metaDataService :MetaDataService) {
   }

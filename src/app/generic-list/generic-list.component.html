@@ -1,14 +1,30 @@
 <div class="list-names">
-  <div class="row-scope">
-    {{listName}}
+  <div class="row-scope header">
+    <div class="header-name"> {{name}}</div>
+    <div class="count"> 10</div>
   </div>
-  <div class="row-scope" *ngFor="let item of metaDataService.data[listName]">
+
+  <div class="row-scope" [ngClass]="{'add-move':name === 'Tasks'}" *ngFor="let item of metaDataService.data[name]">
 
     <img class="icon-avatar" src="{{metaDataService.imgPath+item.img}}">
 
     <div>
-      <div>{{item.name}}</div>
-      <div>{{item.chat}}</div>
+      <div class="chat-name">{{item.name}}</div>
+      <div [ngClass]="{'chat-tasks':name === 'Tasks','chat':name !== 'Tasks'}">{{item.chat}}</div>
+
+      <div *ngIf="name !== 'Messages';else is_messages">
+        <img class="icon-clock" src="{{metaDataService.imgPath+'clock.svg'}}">
+        <span class="date-text">{{item.date}}</span>
+      </div>
+
+      <ng-template #is_messages>
+        <img class="icon-clock" src="{{metaDataService.imgPath+'share.svg'}}">
+        <img class="icon-clock" src="{{metaDataService.imgPath+'settingsWorkTool.svg'}}">
+      </ng-template>
+
     </div>
+
+    <img *ngIf="name === 'Tasks' " class="icon-move" src="{{metaDataService.imgPath+'more.svg'}}">
+
   </div>
 </div>
